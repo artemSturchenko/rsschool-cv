@@ -2,8 +2,8 @@
 ## My Contact Info
 * Phone: +375 29 545 60 95
 * Email: artemsturchenko@gmail.com
-* GitHub: (https://github.com/artemSturchenko)
-* Telegram: (https://t.me/artem_sturchenko)
+* GitHub: https://github.com/artemSturchenko
+* Telegram: https://t.me/artem_sturchenko
 ## About Me
 I am 30 years old. I work as an economist. I don't have really interesting tasks in my current job. This development course is a way to challenge myself and gain knowledge for find job in the future.
 ## Skills
@@ -22,6 +22,22 @@ I am 30 years old. I work as an economist. I don't have really interesting tasks
      }
  }
 ```
+```
+ function duplicateEncode(word){
+     let arr = []
+     for(let char of word){
+         console.log(word.split(char).length)
+         if((word.split(char).length)>2){
+             arr.push(')')
+         }else{
+             arr.push('(')
+         }
+     }
+     return arr.join('')
+ }
+ ```
+
+
 ## Experience
 ## Education
 * National Technical University  «Kharkiv Polytechnic Institute», Electroinsulation and Cable Techniques
