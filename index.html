@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>cv</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/img/favicon-32x32.png">
+  </head>
+
+  <body>
+    <header class="container">
+      <div class="header-elements">
+        <h1 class="header-text">
+          <span class="text-primary">Artem Sturchenko</span>
+        </h1>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary" class="nav-link">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#english-level" class="nav-link">English Level</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#code-examples" class="nav-link">Code Example</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <div class="image-container">
+        <img class="image" src="assets/img/photo.png" alt="profile-photo">
+      </div>
+      <div class="main-container">
+        <section class="section" id="contacts">
+          <h2 class="heading-section">My Contact Info:</h2>
+          <ul class="ul-section">
+            <li>Phone: +375-(29)-545-60-95</li>
+            <li>E-mail: artemsturchenko@gmail.com</li>
+            <li>Telegram: @artem_sturchenko</li>
+            <li>Discord: @artemSturchenko</li>
+          </ul>
+        </section>
+        <section class="section" id="summary">
+          <h2 class="heading-section">About Me:</h2>
+          <p class="section-paragraph">
+            I am 30 years old. I work as an economist. I don't have fascinating
+            tasks in my current job. This development course is a way to
+            challenge myself and gain knowledge for find job in the future.
+          </p>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="heading-section">Skills:</h2>
+          <ul class="ul-section">
+            <li>HTML</li>
+            <li>CSS (a bit of practical experience)</li>
+            <li>Git</li>
+            <li>Basics of Javascript</li>
+          </ul>
+        </section>
+        <section class="section" id="english-level">
+          <h2 class="heading-section">English:</h2>
+          <p class="section-paragraph">
+            The latest test on the EPAM portal ranks my knowledge at level&nbsp;
+            <span class="underline">B1</span>
+          </p>
+        </section>
+        <section class="section" id="education">
+          <h2 class="heading-section">Education:</h2>
+          <ul class="ul-section">
+            <li>
+              National Technical University «Kharkov Polytechnic Institute»,
+              Electroinsulation and Cable Techniques
+            </li>
+            <li>
+              Vitebsk State Technological University, Economics and management
+              at the enterprise
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="code-examples">
+          <h2 class="heading-section">Code Example:</h2>
+          <pre class="code-change"><code>
+              function getCard(){
+                const array1 = [1,2,3,4,5,6,7,8,9,10,"J","Q","K","A"]
+                const array2 = ["clubs","spades","hearts","diamonds"]
+                return {
+                  value: array1[Math.floor(Math.random() * array1.length)],
+                  suit: array2[Math.floor(Math.random() * array2.length)]
+                }
+              }
+        </code></pre>
+        </section>
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="container-footer">
+        <p><span class="text-primary">2022</span></p>
+        <ul class="ul-section">
+          <li class="link">
+            <a target="_blank" href="https://github.com/artemSturchenko"
+              ><span class="text-primary">GitHub Profile</span></a
+            >
+          </li>
+        </ul>
+        <a target="_blank" href="https://rs.school/js/"
+          ><img
+            class="footer-image"
+            src="assets/img/rs_school_js.svg"
+            alt="Link to RS School"></a>
+      </div>
+    </footer>
+  </body>
+</html>
